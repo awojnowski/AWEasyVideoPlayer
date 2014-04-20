@@ -9,5 +9,6 @@ Pod::Spec.new do |spec|
   spec.source_files          = 'AWEasyVideoPlayer/*'
   spec.ios.deployment_target = '7.0'
   spec.ios.frameworks        = 'AVFoundation', 'Foundation', 'UIKit'
+  spec.ios.license           = { :type => 'MIT' }
   spec.requires_arc          = true
 end
