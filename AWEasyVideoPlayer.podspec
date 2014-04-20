@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'https://github.com/awojnowski/AWEasyVideoPlayer'
   spec.authors      = { 'Aaron Wojnowski' => 'aaronwojnowski@gmail.com' }
   spec.summary      = 'Easy Vine and Instagram style video player.'
-  spec.source       = { :git => 'https://github.com/awojnowski/AWEasyVideoPlayer.git' }
+  spec.source       = { :git => 'https://github.com/awojnowski/AWEasyVideoPlayer.git', :tag => '1.0.0'}
   spec.source_files = 'AWEasyVideoPlayer/*'
   spec.framework    = 'AVFoundation'
   spec.requires_arc = true
